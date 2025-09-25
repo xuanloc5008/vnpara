@@ -1,0 +1,78 @@
+% This is samplepaper.tex, a sample chapter demonstrating the
+% LLNCS macro package for Springer Computer Science proceedings;
+% Version 2.21 of 2022/01/12
+%
+\RequirePackage{amsmath}
+% \documentclass[runningheads]{llncs}
+\documentclass{llncs}
+%
+\usepackage[T1]{fontenc}       % default encoding for Latin text
+\usepackage[utf8]{inputenc}    % UTF-8 input
+\usepackage{newunicodechar}    % better unicode handling
+\usepackage[vietnamese,english]{babel}
+\usepackage[T5]{fontenc}       % Vietnamese encoding
+
+% T1 fonts will be used to generate the final print and online PDFs,
+% so please use T1 fonts in your manuscript whenever possible.
+% Other font encondings may result in incorrect characters.
+%
+
+
+\usepackage{graphicx}
+\usepackage[caption=false]{subfig}
+% Used for displaying a sample figure. If possible, figure files should
+% be included in EPS format.
+
+\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+\usepackage{hyperref}
+
+\usepackage[backend=biber, style=lncs]{biblatex}
+\addbibresource{references.bib}
+
+\usepackage{amsmath, amsfonts, amssymb}
+
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage{booktabs}
+
+\usepackage{float}
+\usepackage{siunitx}
+\usepackage{csquotes}
+\usepackage{enumitem}
+\usepackage{bbding}
+
+%
+% If you use the hyperref package, please uncomment the following two lines
+% to display URLs in blue roman font according to Springer's eBook style:
+%\usepackage{color}
+%\renewcommand\UrlFont{\color{blue}\rmfamily}
+%\urlstyle{rm}
+%
+\begin{document}
+%
+\title{Knowledge-Enhanced \\ Vietnamese Paraphrase Identification}
+%te
+\titlerunning{Knowledge-enhanced Vietnamese Paraphrase Identification}
+% If the paper title is too long for the running head, you can set
+% an abbreviated paper title here
+%
+%
+\author{
+    % Lu Xuan Minh\inst{1,2} \and
+    % Nguyen Hong Minh\inst{1,2} \and
+    % Nguyen Xuan Loc\inst{1,2} \and Do Thanh Thai\inst{1,2} \and Bui Tien Duc\inst{1,2} \and Quang Tran Minh\Envelope\inst{1,2}\orcidID{0000-0003-1408-2919}
+}
+%
+\authorrunning{Lu et al.}
+% First names are abbreviated in the running head.
+% If there are more than two authors, 'et al.' is used.
+%
+%
+\institute{
+    % Faculty of Computer Science and Engineering, Ho Chi Minh City University of Technology (HCMUT), 268 Ly Thuong Kiet, District 10, Ho Chi Minh City, Vietnam \and Vietnam National University Ho Chi Minh City (VNU-HCM), Linh Trung Ward, Thu Duc District, Ho Chi Minh City, Vietnam \\
+    % \email{\{minh.luxuanhcmut, minh.nguyenhongk22, 
+    % loc.nguyen28042004, dtthai.sdh242\}@hcmut.edu.vn, tienducut@gmail.com, quangtran@hcmut.edu.vn}
+}
+%
+%
+\maketitle              % typeset the header of the contribution
